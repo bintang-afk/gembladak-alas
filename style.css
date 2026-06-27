@@ -1,0 +1,51 @@
+/* ==========================================
+   GEMBLADAK ALAS
+   Official Website
+   Style Sheet
+========================================== */
+
+
+/* ==========================================
+   DESIGN SYSTEM
+========================================== */
+:root {
+    --primary: #556B2F;
+    --secondary: #6F4E37;
+    --background: #1B1612;
+    --surface: #2B241D;
+    --text: #F5F2E9;
+    --text-secondary: #CFC6B8;
+}
+/* ==========================================
+   RESET
+========================================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* ==========================================
+   BODY
+========================================== */
+body {
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+    background:var(--background);
+    color:var(--text);
+    line-height:1.6;
+}
+/* ==========================================
+   TYPOGRAPHY
+========================================== */
+h1 {
+    font-family:'Oswald', sans-serif;
+    color:var(--primary);
+    margin-top:80px;
+    font-size:3rem;
+}
+
+p {
+    font-size:1rem;
+    color:var(--text-secondary);
+}
