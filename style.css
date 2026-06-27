@@ -47,3 +47,55 @@ p {
     font-size:1rem;
     color:var(--text-secondary);
 }
+/* ==========================================
+   HEADER
+========================================== */
+
+.header{
+    width:100%;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:var(--surface);
+}
+
+.nav-brand{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.nav-logo{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.brand-title{
+    font-size:1.5rem;
+    color:var(--text);
+}
+
+.brand-tagline{
+    font-size:.9rem;
+    color:var(--text-secondary);
+}
+
+.nav-menu{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-link{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:500;
+}
